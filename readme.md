@@ -11,7 +11,7 @@ Montar una semilla de proyecto con vite que:
     - build para compilar el proyecto y generar bundle de producción.
     - preview para previsualizar el bundle de producción.
 - Tenga variables de entorno. Crea un setup de modo que las variables puedan tener un valor para desarrollo y otro distinto para producción. Utiliza un console.log para mostrar su valor por consola, de manera que en desarrollo local (npm start) muestre un valor, pero al levantar la build (npm run preview) su valor sea específico para producción.
-- Crea un elemento <h1> con texto, utilizando la API del DOM, y dale estilos con CSSModules.
+- Crea un elemento ```<h1>``` con texto, utilizando la API del DOM, y dale estilos con CSSModules.
   
 ## Opcional
 
