@@ -1,6 +1,6 @@
-Vite
+# Vite
 
-Obligatorio
+## Obligatorio
 
 Montar una semilla de proyecto con vite que:
 
@@ -12,6 +12,7 @@ Montar una semilla de proyecto con vite que:
     - preview para previsualizar el bundle de producción.
 - Tenga variables de entorno. Crea un setup de modo que las variables puedan tener un valor para desarrollo y otro distinto para producción. Utiliza un console.log para mostrar su valor por consola, de manera que en desarrollo local (npm start) muestre un valor, pero al levantar la build (npm run preview) su valor sea específico para producción.
 - Crea un elemento <h1> con texto, utilizando la API del DOM, y dale estilos con CSSModules.
-Opcional
+  
+## Opcional
 
-Añade la configuración necesaria para que al hacer la build también genere los ficheros de forma comprimida (GZIP y BROTLI), por lo que al hacer la build deberán existir los ficheros dist/index-<hash>.js.gz y un dist/index-<hash>.js.br.
+- Añade la configuración necesaria para que al hacer la build también genere los ficheros de forma comprimida (GZIP y BROTLI), por lo que al hacer la build deberán existir los ficheros dist/index-<hash>.js.gz y un dist/index-<hash>.js.br.
